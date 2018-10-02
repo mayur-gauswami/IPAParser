@@ -1,0 +1,31 @@
+{
+  "name": "ipa-parser",
+  "version": "1.0.0",
+  "description": "A basic tool to analyse IPA file. It's give you size analysis and files analysis like number of images, storyboards and nibs etc.",
+  "main": "ipaParser.js",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "console.table": "^0.8.0",
+    "copy": "^0.3.0",
+    "prompt": "^1.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ipaParser.js <path_to_ipa_file>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayur-gauswami/IPAParser.git"
+  },
+  "keywords": [
+    "ipa",
+    "node"
+  ],
+  "author": "Mayur Gauswami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mayur-gauswami/IPAParser/issues"
+  },
+  "homepage": "https://github.com/mayur-gauswami/IPAParser#readme"
+}
